@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap');
+html, body{
+    background: rgb(10, 50, 95);
+    font-family: Kanit;
+}
+
+legend{
+    font-size: 50px;
+    color: rgb(203, 231, 255);
+}
+
+fieldset{
+    color: rgb(216, 216, 216);
+}

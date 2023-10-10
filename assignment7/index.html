@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Square game</title>
+  <script type="text/javascript" src="game.js"></script>
+  <link rel="stylesheet" type="text/css" href="game.css">
+ </head>
+ <body>
+  <fieldset>
+   <legend>Setting</legend>
+   Number of box: 
+   <input type="text" name="numbox" id="numbox">
+   <select name="color" id = "color">
+      <option value="maroon">maroon</option>
+      <option value="lightgreen">lightgreen</option>
+    <option value="magenta">magenta</option> 
+   </select>
+   <button id="start">Start</button>
+   <div id="timerClock"> Timer:
+    <div id="clock"></div>
+   </div>
+  </fieldset>
+  <div id="game-container">
+   <div id="game-layer"></div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a3f89576b7.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+
+<body class="font-sans bg-gray-100">
+
+    <header id="header" class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-semibold">Kittapot Phoonphoemsirikul</h1>
+            <p class="text-lg">Digital Media Technology Student</p>
+        </div>
+    </header>
+
+    <nav class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-center space-x-6">
+            <a href="index.html" class="text-lg hover:text-gray-400">Home</a>
+            <a href="project.html" class="text-lg hover:text-gray-400">Work & Project</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+
+        <section id="work" class="mb-8">
+            <h2 class="text-3xl">Work</h2>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center max-w-3xl m-auto gap-12">
+            <a href="assignment4/recipe.html" class="bg-white hover:bg-gray-300 p-4 rounded-lg shadow-lg ">
+                <p class="text-lg">Assignment 4</p>
+            </a>
+            <a href="assignment5/index.html" class="bg-white hover:bg-gray-300 p-4 rounded-lg shadow-lg">
+                <p class="text-lg">Assignment 5</p>
+            </a>
+            <a href="assignment6/register.html" class="bg-white hover:bg-gray-300 p-4 rounded-lg shadow-lg">
+                <p class="text-lg">Assignment 6</p>
+            </a>
+            <a href="assignment7/index.html" class="bg-white hover:bg-gray-300 p-4 rounded-lg shadow-lg">
+                <p class="text-lg">Assignment 7</p>
+            </a>
+        </div>
+
+        <section id="project" class="mt-8 mb-10">
+            <br>
+            <h2 class="text-3xl">Project</h2>
+        </section>
+        <div class="flex flex-col items-center justify-center bg-gray-200 mt-5 rounded-xl p-10 h-full ">
+            <div class="flex flex-col-reverse md:flex-row-reverse items-center justify-center  gap-10">
+                <img class="md:w-1/4 w-3/4 rounded-2xl" src="pic/car_project.jpg" alt="" srcset="" />
+                <p class="md:text-2xl text-sm mt-4 text-center">This project is to create a remote control car using Arduino that can control the direction.
+                     and acceleration via phone The car has a camera module. The picture can be seen while playing on the phone screen. And in the future,
+                      the images obtained while playing will be used to create the next AR game.
+                </p>
+            </div>
+        </div>
+
+        <a id="arrow" class="fixed bottom-8 right-8 bg-gray-900 text-white p-3 rounded-full hover:bg-gray-700 transition duration-300">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+        <section id="reference" class="mb-10 ">
+            <h2 class="text-3xl mt-10">Reference</h2>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center max-w-3xl mx-auto gap-12 mb-10">
+            <a href="https://tailwindcss.com/" class="bg-white hover:bg-gray-300 p-4 rounded-lg shadow-lg">
+                <p class="text-lg">Tailwind</p>
+            </a>
+            <a href="https://www.w3schools.com/js/default.asp" class="bg-white hover:bg-gray-300 p-4 rounded-lg shadow-lg">
+                <p class="text-lg">w3school</p>
+            </a>
+            <a href="https://youtu.be/ZRlMuwmdas4?si=IsGYjniBfl6419Xq" class="bg-white hover:bg-gray-300 p-4 rounded-lg shadow-lg">
+                <p class="text-lg">youtube</p>
+            </a>
+        </div>
+        
+    </main>
+
+    <footer class="bg-gray-900 text-white py-4 text-center">
+        <p>Thank you for visiting!</p>
+        <div class="mt-4">
+            <div class="flex justify-center space-x-4">
+                <button id="fb" class="fab fa-facebook"></button>
+                <button id="ig" class="fab fa-instagram"></button>
+                <button id="gh" class="fab fa-github"></button>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

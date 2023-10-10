@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap');
+html, body{
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    font-family: Kanit;
+}
+
+.Gluten_Free_General_Tso’s_Chicken{
+    font-size: 65px;
+    text-align: center ;
+    background-color: rgba(255, 255, 255, 0.503);
+    width: 80%;
+    margin: auto;    
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.Pic6 {
+    margin: auto;
+    justify-items: center ;
+    text-align: center ;
+}
+
+.Pic6 img {
+    border-radius: 15px;
+    height: 400px;
+    width: 420px;
+}
+
+
+.Head_Ingredients {
+    font-size: 40px;
+    text-align: center ;
+
+}
+
+div.Ingredients{
+    text-align: center;
+}
+
+ul.Myul{
+    display: inline-block;
+    text-align: left;
+}
+
+.Head_Instructions{
+    font-size: 40px;
+    text-align: center ;
+}
+
+.Pic1 {
+    margin: auto;
+    justify-items: center ;
+    text-align: center ;
+}
+
+.Pic1 img {
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+}
+
+
+.Instructions_1{
+    padding: 50px;
+    text-align: center ;
+}
+
+.Pic2 {
+    margin: auto;
+    justify-items: center ;
+    text-align: center ;
+}
+
+.Pic2 img {
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+}
+
+.Instructions_2{
+    padding: 50px;
+    text-align: center ;
+}
+
+.Pic3 {
+    margin: auto;
+    justify-items: center ;
+    text-align: center ;
+}
+
+.Pic3 img {
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+}
+
+.Instructions_3{
+    padding: 50px;
+    text-align: center ;
+}
+
+.Pic4 {
+    margin: auto;
+    justify-items: center ;
+    text-align: center ;
+}
+
+.Pic4 img {
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+}
+
+.Instructions_4{
+    padding: 50px;
+    text-align: center ;
+}
+
+.All_pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.Pic5 img {
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+}
+
+.Pic7 img {
+    border-radius: 15px;
+    height: 100px;
+    width: 300px; 
+}
+
+.Pic7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Pic8 img {
+    border-radius: 15px;
+    height: 100px;
+    width: 300px;
+}
+
+.Pic8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.source{
+    font-size: 35px;
+    text-align: center ;
+    background-color: rgba(255, 255, 255, 0.503);
+}
+
+id header{
+    grid-column: 1 span 2;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.503);
+}
+
+id menu{
+    grid-column: 2 span 1;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.503);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto 30% 30%;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color:white;
+} 
+
+ #header{
+    grid-column: 1 / span 3;
+}
+
+#menu{
+    grid-column: 1 / span 1;
+}
+
+#main{
+    grid-column: 2 / span 1;
+}
+#right{
+    grid-column: 3 / span 1;
+}
+
+#footer{
+    grid-column: 1 / span 3;
+} 
+
+ @media only screen and (max-width: 500px){
+    body{
+        background-color: lightblue;
+    }
+} 
+
+ @media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto 20%;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 / span 2;
+    }
+    
+    #menu{
+        grid-column: 1 / span 2;
+        text-align: left;
+    }
+    
+    #menu div{
+        display: inline-block;
+    }
+
+    #main{
+        grid-column: 1 / span 1;
+    }
+    #right{
+        grid-column: 2 / span 1;
+    }
+    #footer{
+        grid-column: 1 / span 2;
+    }
+} 
+
+ @media only screen and (max-width: 500px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 / span 1;
+    }
+    
+    #menu{
+        grid-column: 1 / span 1;
+    }
+    
+    #main{
+        grid-column: 1 / span 1;
+    }
+    #right{
+        grid-column: 1 / span 1;
+    }
+    #footer{
+        grid-column: 1 / span 1;
+    }
+}  
